@@ -1,0 +1,49 @@
+{
+  "name": "StackMobileTheme",
+  "author": "Marcos Duarte Gomes",
+  "dark": true,
+  "editorScheme": "/theme/mytheme.xml",
+  "colors": {
+    "primaryRed": "#ffffff",
+    "panelBackground": "#394b60",
+    "menuBackground": "#2e4462",
+    "menuItemBackground": "#2e4462",
+    "checkBoxMenuItemSelectionBackground": "#2e4462",
+    "menuSelectionBackground": "#1083d4",
+    "buttonBackground": "#394b60",
+    "buttonBorderColor": "#FFFFFF",
+    "buttonStartBackground": "#1083d4",
+    "buttonEndBackground": "#013d6e",
+    "buttonDefaultStartBackground": "#1083d4",
+    "buttonDefaultEndBackground": "#013d6e",
+    "buttonForeground": "#FFFFFF",
+    "buttonDisabledBorderColor": "#FFFFFF",
+    "buttonDisabledText": "#FFFFFF",
+    "editorTabsHoverSelectedBackground": "#1083d4"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#1083d4"
+    }
+  },
+  "ui": {
+    "EditorTabs.hoverSelectedBackground": "editorTabsHoverSelectedBackground",
+    "EditorTabs.verticalTabInsets": "panelBackground",
+    "Menu.selectionBackground": "menuSelectionBackground",
+    "Menu.selectionForeground": "menuSelectionBackground",
+    "MenuBar.selectionBackground": "menuSelectionBackground",
+    "CheckBoxMenuItem.selectionBackground": "checkBoxMenuItemSelectionBackground",
+    "Button.startBorderColor": "buttonBorderColor",
+    "Button.endBorderColor": "buttonBorderColor",
+    "Button.startBackground": "buttonStartBackground",
+    "Button.endBackground": "buttonEndBackground",
+    "Button.arc": 20,
+    "Button.foreground": "buttonForeground",
+    "Button.background": "buttonBackground",
+    "Button.disabledBorderColor": "buttonDisabledBorderColor",
+    "Button.disabledText": "buttonDisabledText",
+    "Button.default.focusedBorderColor": "buttonBorderColor",
+    "Button.default.startBackground": "buttonDefaultStartBackground",
+    "Button.default.endBackground": "buttonDefaultEndBackground"
+  }
+}

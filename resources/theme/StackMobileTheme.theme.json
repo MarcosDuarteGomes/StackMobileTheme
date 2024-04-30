@@ -4,46 +4,95 @@
   "dark": true,
   "editorScheme": "/theme/mytheme.xml",
   "colors": {
-    "primaryRed": "#ffffff",
-    "panelBackground": "#394b60",
-    "menuBackground": "#2e4462",
-    "menuItemBackground": "#2e4462",
-    "checkBoxMenuItemSelectionBackground": "#2e4462",
-    "menuSelectionBackground": "#1083d4",
-    "buttonBackground": "#394b60",
-    "buttonBorderColor": "#FFFFFF",
-    "buttonStartBackground": "#1083d4",
-    "buttonEndBackground": "#013d6e",
-    "buttonDefaultStartBackground": "#1083d4",
-    "buttonDefaultEndBackground": "#013d6e",
-    "buttonForeground": "#FFFFFF",
-    "buttonDisabledBorderColor": "#FFFFFF",
-    "buttonDisabledText": "#FFFFFF",
-    "editorTabsHoverSelectedBackground": "#1083d4"
+    "blue": "#1083d4",
+    "darkBlue": "#013d6e",
+    "black": "#000000",
+    "white": "#FFFFFF"
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#1083d4"
+      "Actions.Blue": "#1083d4",
+      "Checkbox.Foreground.Selected": "blue",
+      "Checkbox.Foreground.Disabled": "darkBlue",
+      "Checkbox.Background.Default": "black",
+      "Checkbox.Background.Disabled": "black",
+      "Checkbox.Focus.Thin.Default": "blue",
+      "Checkbox.Focus.Thin.Selected": "blue",
+      "Checkbox.Border.Disabled": "darkBlue",
+      "Checkbox.Border.Default": "blue"
     }
   },
   "ui": {
-    "EditorTabs.hoverSelectedBackground": "editorTabsHoverSelectedBackground",
-    "EditorTabs.verticalTabInsets": "panelBackground",
-    "Menu.selectionBackground": "menuSelectionBackground",
-    "Menu.selectionForeground": "menuSelectionBackground",
-    "MenuBar.selectionBackground": "menuSelectionBackground",
-    "CheckBoxMenuItem.selectionBackground": "checkBoxMenuItemSelectionBackground",
-    "Button.startBorderColor": "buttonBorderColor",
-    "Button.endBorderColor": "buttonBorderColor",
-    "Button.startBackground": "buttonStartBackground",
-    "Button.endBackground": "buttonEndBackground",
+    "*": {
+      "background": "black",
+      "selectionBackground": "blue"
+    },
+
+    "EditorTabs.unselectedBlend": "0.9",
+    "EditorTabs.hoverSelectedBackground": "blue",
+    "EditorTabs.verticalTabInsets": "blue",
+    "EditorTabs.hoverInactiveBackground": "darkBlue",
+    "EditorTabs.underlineHeight": 1,
+    "EditorTabs.underlinedTabBackground": "black",
+
+    "ComboBox": {
+      "ArrowButton": {
+        "iconColor": "blue",
+        "disabledIconColor": "darkBlue",
+        "nonEditableBackground": "darkBlue"
+      }
+    },
+
+    "EditorPane": {
+      "inactiveBackground": "black",
+      "inactiveForeground": "#ff0000"
+    },
+
+    "Panel.background": "black",
+    "SidePanel.background": "black",
+    "WelcomeScreen.SidePanel.background": "black",
+
+    "ScrollBar.thumbColor": "blue",
+    "ScrollBar.trackColor": "blue",
+
+    "Label.background": "black",
+    "Label.selectedForeground": "blue",
+
+    "Tree.selectionBackground": "blue",
+    "Tree.selectionForeground": "white",
+
+    "Menu.background": "black",
+    "MenuItem.background": "black",
+    "MenuItem.selectionForeground": "white",
+    "Menu.foreground": "white",
+    "MenuItem.foreground": "white",
+    "MenuItem.selectionBackground": "blue",
+
+    "Button.startBorderColor": "blue",
+    "Button.endBorderColor": "darkBlue",
+    "Button.startBackground": "blue",
+    "Button.endBackground": "darkBlue",
     "Button.arc": 20,
-    "Button.foreground": "buttonForeground",
-    "Button.background": "buttonBackground",
-    "Button.disabledBorderColor": "buttonDisabledBorderColor",
-    "Button.disabledText": "buttonDisabledText",
-    "Button.default.focusedBorderColor": "buttonBorderColor",
-    "Button.default.startBackground": "buttonDefaultStartBackground",
-    "Button.default.endBackground": "buttonDefaultEndBackground"
+    "Button.foreground": "white",
+    "Button.background": "black",
+    "Button.disabledBorderColor": "blue",
+    "Button.disabledText": "white",
+    "Button.default.focusedBorderColor": "white",
+    "Button.default.startBackground": "blue",
+    "Button.default.endBackground": "darkBlue"
+
+  },
+
+  "background": {
+    "image": "theme/fundostackmobile.png",
+    "transparency": 10,
+    "fill": "tile",
+    "anchor": "bottom_left"
+  },
+  "emptyFrameBackground": {
+    "image": "theme/fundostackmobile.png",
+    "transparency": 20,
+    "fill": "scale",
+    "anchor": "center"
   }
 }

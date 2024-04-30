@@ -1,10 +1,10 @@
-<scheme name="Stack Mobile Theme" version="142" parent_scheme="Darcula">
+<scheme name="Darcula copy4" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="created">2024-04-29T20:57:50</property>
-        <property name="ide">idea</property>
+        <property name="created">2024-04-29T21:31:40</property>
+        <property name="ide">Idea</property>
         <property name="ideVersion">2023.3.4.0.0</property>
-        <property name="modified">2024-04-29T20:58:09</property>
-        <property name="originalScheme">Stack Mobile Theme</property>
+        <property name="modified">2024-04-29T21:32:05</property>
+        <property name="originalScheme">Darcula copy4</property>
     </metaInfo>
     <attributes>
         <option name="KDOC_LINK">
@@ -123,7 +123,7 @@
         </option>
         <option name="KOTLIN_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
+                <option name="FOREGROUND" value="309be0" />
             </value>
         </option>
         <option name="KOTLIN_FUNCTION_DECLARATION">
@@ -202,7 +202,7 @@
         </option>
         <option name="KOTLIN_OBJECT">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
+                <option name="FOREGROUND" value="309be0" />
             </value>
         </option>
         <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
@@ -294,7 +294,7 @@
         </option>
         <option name="XML_ATTRIBUTE_VALUE">
             <value>
-                <option name="FOREGROUND" value="db747" />
+                <option name="FOREGROUND" value="a1c913" />
             </value>
         </option>
         <option name="XML_COMMENT">
@@ -304,7 +304,7 @@
         </option>
         <option name="XML_NS_PREFIX">
             <value>
-                <option name="FOREGROUND" value="52bc7a" />
+                <option name="FOREGROUND" value="dec991" />
             </value>
         </option>
         <option name="XML_PROLOGUE">
